@@ -19,6 +19,8 @@ cout<<"Ikinci sayiyi giriniz : ";
 cin>>b;	
 }
 
+system("CLS");
+
 while(secim<1 && secim>5) {
 	cout<<"Lutfen 1 ve 5 arasında bir secim yapiniz"<<"\nSecim";
 	cin>>secim;
@@ -29,17 +31,19 @@ cout<<"\n1-Toplama islemi"<<"\n2-Cikarma islemi"<<"\n3-Carpma islemi"<<"\n4-Bolm
 cout<<"\nSeciminiz : ";
 cin>>secim;
 
+system("CLS");
+
 if(secim==1){
-	cout<<a<<"+"<<b<<"="<<a+b;
+	cout<<a<<" + "<<b<<" = "<<a+b;
 }
 else if(secim==2) {
-	cout<<a<<"-"<<b<<"="<<a-b;
+	cout<<a<<" - "<<b<<" = "<<a-b;
 }
 else if (secim==3) {
-	cout<<a<<"*"<<b<<"="<<a*b;	
+	cout<<a<<" * "<<b<<" = "<<a*b;	
 }
 else if(secim==4){
-	cout<<a<<"/"<<b<<"="<<a/b;
+	cout<<a<<" / "<<b<<" = "<<a/b;
 }
 else {
 	cout<<"Cikis yaptiniz.";
